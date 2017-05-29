@@ -27,7 +27,7 @@
 					<!-- <div class="page-header">
 					    <h3>Sign Up to Enter the Draw</h3> 
 					</div> -->
-					<form id="form" action="#">
+					<form id="form" action="submit.php" method="post">
 						<div class="form-group">
 						    <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name*">
 						</div>
@@ -75,25 +75,25 @@
 							</div>
 							<div class="col-sm-12 ">
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="tractor1" class="hide">
+										<input type="checkbox" id="tractor1" class="hide" value="DF" name="tractors[]">
 	                  					<label for="tractor1">
 	                  						<img class='img-responsive' src='images/DF.png' width='60' height='60' alt>
 	                  					</label>
 								</div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="tractor2" class="hide">
+										<input type="checkbox" id="tractor2" class="hide" value="KI" name="tractors[]">
 	                  					<label for="tractor2">
 	                  						<img class='img-responsive' src='images/KI.png' width='60' height='60' alt>
 	                  					</label>
 								</div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="tractor3" class="hide">
+										<input type="checkbox" id="tractor3" class="hide" value="SA" name="tractors[]">
 	                  					<label for="tractor3">
 	                  						<img class='img-responsive' src='images/SA.png' width='60' height='60' alt>
 	                  					</label>
 								</div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="tractor4" class="hide">
+										<input type="checkbox" id="tractor4" class="hide" value="VE" name="tractors[]">
 	                  					<label for="tractor4">
 	                  						<img class='img-responsive' src='images/VE.png' width='60' height='60' alt>
 	                  					</label>
@@ -108,26 +108,26 @@
 							</div>
 							<div class="col-sm-12 ">
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="Grass1" class="hide">
+										<input type="checkbox" id="Grass1" class="hide" value="HO" name="grasses[]">
 	                  					<label for="Grass1">
 	                  						<img class='img-responsive' src='images/HO.png' width='75'  alt>
 	                  					</label>
 								</div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="Grass2" class="hide">
+										<input type="checkbox" id="Grass2" class="hide" value="KV" name="grasses[]">
 	                  					<label for="Grass2">
 	                  						<img class='img-responsive' src='images/KV.png' width='75'  alt>
 	                  					</label>
 								</div>
 								<div class="clearfix visible-xs"></div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="Grass3" class="hide">
+										<input type="checkbox" id="Grass3" class="hide" value="MG" name="grasses[]">
 	                  					<label for="Grass3">
 	                  						<img class='img-responsive' src='images/MG.png' width='75'  alt>
 	                  					</label>
 								</div>
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="Grass4" class="hide">
+										<input type="checkbox" id="Grass4" class="hide" value="SR" name="grasses[]">
 	                  					<label for="Grass4">
 	                  						<img class='img-responsive' src='images/SR.png' width='75'  alt>
 	                  					</label>
@@ -135,7 +135,7 @@
 								<div class="clearfix"></div>
 
 								<div class="col-sm-3 col-sm-offset-5 col-xs-6">
-										<input type="checkbox" id="Grass5" class="hide">
+										<input type="checkbox" id="Grass5" class="hide" value="MH" name="grasses[]">
 	                  					<label for="Grass5">
 	                  						<img class='img-responsive' src='images/MH.png' width='75'  alt>
 	                  					</label>
@@ -145,7 +145,7 @@
 	<!-- New Row -->
 
 
-						<button class="btn btn-success">Submit</button>
+						<button type="submit" class="btn btn-success">Submit</button>
 
 					</form>
 				</div>
