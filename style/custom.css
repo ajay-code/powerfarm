@@ -1,6 +1,6 @@
 .brand-head{
 	background-color: #5aaed9;
-	margin: 10px 0;
+	margin: 0;
 }
 .brand-head span{
 	margin-right: 20px;
@@ -15,9 +15,18 @@
 	margin-left: 20px;
 }
 
+@media only screen and (max-width: 410px) {
+	.brand-head img{
+		height: 60px;
+		margin-left: 20px;
+		float: none !important;
+	}
+}
+
 
 .brand{
-	margin: 50px 0;
+	margin: 10px 0;
+	box-shadow: 0px 10px 0px #2da0d2;
 }
 
 body{
@@ -38,7 +47,7 @@ body{
 
 .desc-text{
 	font-size: 12px;
-	padding: 0;
+	/* padding: 0; */
 	font-weight: normal;
 	margin-top: 10px;
 }
@@ -62,4 +71,8 @@ input[type="checkbox"]{
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px ;
     border-radius: 0px ;
+}
+
+.collapse{
+	margin-top: 10px;
 }

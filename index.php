@@ -51,17 +51,16 @@
 						</select>
 
 						<div class="row"><!-- Checkbox Row -->
-							<div class="form-group col-xs-4 col-xs-offset-3">
-								<div class="checkbox ">
+							<div class="form-group col-xs-6 col-sm-4 col-sm-offset-2">
+								<div class="checkbox text-center">
 								    <label>
 								      <input type="checkbox" name="new" > New
-								      <!-- <span class="glyphicon form-control-feedback small" aria-hidden="true"></span> -->
-						    		  <!-- <div class="help-block with-errors"></div> -->
+								     
 								    </label>
 								</div>
 							</div>
-							<div class="form-group col-xs-4">
-								<div class="checkbox">
+							<div class="form-group col-xs-6 col-sm-4">
+								<div class="checkbox text-center">
 								    <label>
 								      <input type="checkbox" name="used" > Used
 								    </label>
@@ -79,7 +78,6 @@
 								</span>
 								<p class="h4">Tractors</p>
 								<img class="pull-right" class="" src="images/tractors-pic.png" alt="">
-								<span id="tractors[]" class="text-danger"></span>
 							</div>
 							<div class="collapse col-sm-12" id="tractors">
 								<div class="col-sm-12">
@@ -87,7 +85,7 @@
 	                  					<label for="tractor1">
 	                  						<div class="row">  	                  						
 		                  						<div class="col-xs-3">
-		                  							<img class='img-responsive' src='images/DF.png' width='60' height='60' alt>
+		                  							<img class='' src='images/DF.png' width='60' height='60' alt>
 		                  						</div>
 		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
@@ -103,7 +101,7 @@
 	                  					<label for="tractor2">
 	                  						<div class="row">  	                  						
 		                  						<div class="col-xs-3">
-		                  							<img class='img-responsive' src='images/KI.png' width='60' height='60' alt>
+		                  							<img class='' src='images/KI.png' width='60' height='60' alt>
 		                  						</div>
 		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
@@ -119,7 +117,7 @@
 	                  					<label for="tractor3">
 	                  						<div class="row">  	                  						
 		                  						<div class="col-xs-3">
-		                  							<img class='img-responsive' src='images/SA.png' width='60' height='60' alt>
+		                  							<img class='' src='images/SA.png' width='60' height='60' alt>
 		                  						</div>
 		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
@@ -136,7 +134,7 @@
 	                  					<label for="tractor4">
 	                  						<div class="row">  	                  						
 		                  						<div class="col-xs-3">
-		                  							<img class='img-responsive' src='images/VE.png' width='60' height='60' alt>
+		                  							<img class='' src='images/VE.png' width='60' height='60' alt>
 		                  						</div>
 		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
@@ -152,11 +150,90 @@
 							</div>
 						</div><!--End Brand Tractor-->
 	<!-- New Row  -->
+						<div class="row brand"><!--Brand Tractor-->
+							<div class="col-sm-12 brand-head"  >
+								<span>
+									<a href="#grass" data-toggle="collapse"><i class="glyphicon glyphicon-plus"></i></a>
+								</span>
+								<p class="h4">Grass</p>
+								<img class="pull-right" class="" src="images/grass-pic.png" alt="">
+							</div>
+							<div class="collapse col-sm-12" id="grass">
+								<div class="col-sm-12">
+										<input type="checkbox" id="grass1" class="hide" value="HO" name="grasses[]" >
+	                  					<label for="grass1">
+	                  						<div class="row">  	                  						
+		                  						<div class="col-xs-4">
+		                  							<img class='' src='images/HO.png' height="60" alt>
+		                  						</div>
+		                  						<div class="col-xs-6 desc-text">
+		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
+		                  						</div>
+		                  						<div class="col-xs-2 desc-text">
+		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  						</div>
+		                  					</div>
+	                  					</label>
+								</div>
+								<div class="col-sm-12 ">
+										<input type="checkbox" id="grass2" class="hide" value="KV" name="grasses[]" >
+	                  					<label for="grass2">
+	                  						<div class="row">  	                  						
+		                  						<div class="col-xs-4">
+		                  							<img class='' src='images/KV.png' height="60" alt>
+		                  						</div>
+		                  						<div class="col-xs-6 desc-text">
+		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
+		                  						</div>
+		                  						<div class="col-xs-2 desc-text">
+		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  						</div>
+		                  					</div>
+	                  					</label>
+								</div>
+								<div class="col-sm-12">
+										<input type="checkbox" id="grass3" class="hide" value="MG" name="grasses[]" >
+	                  					<label for="grass3">
+	                  						<div class="row">  	                  						
+		                  						<div class="col-xs-4">
+		                  							<img class='' src='images/MG.png' height="60" alt>
+		                  						</div>
+		                  						<div class="col-xs-6 desc-text">
+		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
+		                  						</div>
+		                  						<div class="col-xs-2 desc-text">
+		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  						</div>
+	                  						</div>
+	
+	                  					</label>
+								</div>
+								<div class="col-sm-12">
+										<input type="checkbox" id="grass4" class="hide" value="SR" name="grasses[]" >
+	                  					<label for="grass4">
+	                  						<div class="row">  	                  						
+		                  						<div class="col-xs-4">
+		                  							<img class='' src='images/SR.png' height="60" alt>
+		                  						</div>
+		                  						<div class="col-xs-6 desc-text">
+		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
+		                  						</div>
+		                  						<div class="col-xs-2 desc-text">
+		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  						</div>
+	                  						</div>
+	
+	                  					</label>
+								</div>
+								
+							</div>
+						</div><!--End Brand Tractor-->
 						
 						<!-- Test -->
 
 
-
+						<br>
+						<br>
 						<button type="submit" class="btn btn-success">Submit</button>
 
 					</form>
