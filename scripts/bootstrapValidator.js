@@ -119,8 +119,11 @@ if (typeof jQuery === 'undefined') {
                         var $field = $(this),
                             field  = $field.attr('name') || $field.attr('data-bv-field'),
                             opts   = that._parseOptions($field);
+                            console.log(field, opts)
+
                         if (opts) {
                             $field.attr('data-bv-field', field);
+
                             options.fields[field] = $.extend({}, opts, options.fields[field]);
                         }
                     });

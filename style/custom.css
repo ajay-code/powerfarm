@@ -17,3 +17,6 @@ input:checked + label>img{
 input + label>img{
 	min-height: 10px;
 }
+.brand{
+	margin: 50px 0;
+}

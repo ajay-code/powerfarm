@@ -19,17 +19,27 @@ $(function () {
         	},
         	new: {
         		message: '',
-        		required: {}
         	},
-        	used: {
-        		message: '',
-        		required: {}
+        	'used': {
+        		message: ' ',
+        		validators: {
+                    // notEmpty: {
+                    //     message: ''
+                    // }
+                    callback: {
+                        message: ' ',
+                        callback: function(value, validator, $field){
+                            console.log(value, validator, $field)
+                            return true;
+                        }
+                    }
+                }
 
-        	}
+        	},
+            
 
         }
 	});
-console.log('sdf')
 
 /*END*/ 
 })

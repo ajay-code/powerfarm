@@ -19,6 +19,8 @@
 <body>
 	<div class="container">
 		<div class="row">
+		<br>
+		<br>
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel panel-default">
 				  <div class="panel-heading">Sign Up to Enter the Draw</div>
@@ -75,7 +77,7 @@
 							</div>
 							<div class="col-sm-12 ">
 								<div class="col-sm-3 col-xs-6">
-										<input type="checkbox" id="tractor1" class="hide" value="DF" name="tractors[]">
+										<input type="checkbox" id="tractor1" class="hide" value="DF" name="tractors[]" data-bv-field="tractors[]">
 	                  					<label for="tractor1">
 	                  						<img class='img-responsive' src='images/DF.png' width='60' height='60' alt>
 	                  					</label>
@@ -143,7 +145,149 @@
 							</div>
 						</div><!--End Brand Grass-->
 	<!-- New Row -->
+						<div class="row brand"><!--Brand Cultivation-->
+							<div class="col-sm-12 brand-head">
+								<p class="h4">Cultivation</p>
+									<img class="" src="images/cultivation-pic.png" alt="">
+							</div>
+							<div class="col-sm-12 ">
+								<div class="col-sm-3 col-xs-6">
+										<input type="checkbox" id="cultivator1" class="hide" value="AT" name="cultivators[]">
+	                  					<label for="cultivator1">
+	                  						<img class='img-responsive' src='images/AT.png' width='95' height='48' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+										<input type="checkbox" id="cultivator2" class="hide" value="GP" name="cultivators[]">
+	                  					<label for="cultivator2">
+	                  						<img class='img-responsive' src='images/GP.png' width='95' height='48' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+										<input type="checkbox" id="cultivator3" class="hide" value="KV" name="cultivators[]">
+	                  					<label for="cultivator3">
+	                  						<img class='img-responsive' src='images/KV.png' width='95' height='48' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+										<input type="checkbox" id="cultivator4" class="hide" value="MG" name="cultivators[]">
+	                  					<label for="cultivator4">
+	                  						<img class='img-responsive' src='images/MG.png' width='95' height='48' alt>
+	                  					</label>
+								</div>
+							</div>
+						</div><!--End Brand Cultivation-->
 
+	<!-- New Row -->
+						<div class="row brand"><!--Brand Crop Management-->
+							<div class="col-sm-12 brand-head">
+								<p class="h4">Crop Management</p>
+									<img class="" src="images/cropmanagement-pic.png" alt="">
+							</div>
+							<div class="col-sm-12 ">
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="crop1" class="hide" value="AT" name="crops[]">
+	                  					<label for="crop1">
+	                  						<img class='img-responsive' src='images/AT.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="crop2" class="hide" value="KV" name="crops[]">
+	                  					<label for="crop2">
+	                  						<img class='img-responsive' src='images/KV.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="crop3" class="hide" value="VI" name="crops[]">
+	                  					<label for="crop3">
+	                  						<img class='img-responsive' src='images/VI.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="clearfix visible-sm"></div>
+								<div class="col-sm-3 col-sm-offset-2 col-xs-6">
+										<input type="checkbox" id="crop4" class="hide" value="VE" name="crops[]">
+	                  					<label for="crop4">
+	                  						<img class='img-responsive' src='images/merlo-icon.png' width='67' height='67' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-6  col-xs-6">
+										<input type="checkbox" id="crop4" class="hide" value="VE" name="crops[]">
+	                  					<label for="crop4">
+	                  						<img class='img-responsive' src='images/merlo-pic.png' width='175' height='67' alt>
+	                  					</label>
+								</div>
+							</div>
+						</div><!--End Crop Management-->
+
+	<!-- New Row -->
+						<div class="row brand"><!--Brand Feeding-->
+							<div class="col-sm-12 brand-head">
+								<p class="h4">Feeding</p>
+									<img class="" src="images/feeding-pic.png" alt="">
+							</div>
+							<div class="col-sm-12 ">
+								<div class="col-sm-4 col-sm-offset-2 col-xs-6">
+										<input type="checkbox" id="feed1" class="hide" value="AT" name="feeds[]">
+	                  					<label for="feed1">
+	                  						<img class='img-responsive' src='images/AT.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="feed2" class="hide" value="JA" name="feeds[]">
+	                  					<label for="feed2">
+	                  						<img class='img-responsive' src='images/JA.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								
+							</div>
+						</div><!--End Feeding-->
+
+	<!-- New Row -->
+						<div class="row brand"><!--Brand Seeding-->
+							<div class="col-sm-12 brand-head">
+								<p class="h4">Seeding</p>
+									<img class="" src="images/seeding-pic.png" alt="">
+							</div>
+							<div class="col-sm-12 ">
+								<div class="col-sm-4  col-xs-6">
+										<input type="checkbox" id="seed1" class="hide" value="GP" name="seeds[]">
+	                  					<label for="seed1">
+	                  						<img class='img-responsive' src='images/GP.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="seed2" class="hide" value="KC" name="seeds[]">
+	                  					<label for="seed2">
+	                  						<img class='img-responsive' src='images/KC.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="clearfix visible-xs"></div>
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="seed3" class="hide" value="KV" name="seeds[]">
+	                  					<label for="seed3">
+	                  						<img class='img-responsive' src='images/KV.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="col-sm-4 col-sm-offset-2 col-xs-6">
+										<input type="checkbox" id="seed4" class="hide" value="MG" name="seeds[]">
+	                  					<label for="seed4">
+	                  						<img class='img-responsive' src='images/MG.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								<div class="clearfix visible-xs"></div>
+
+								<div class="col-sm-4 col-xs-6">
+										<input type="checkbox" id="seed5" class="hide" value="AT" name="seeds[]">
+	                  					<label for="seed5">
+	                  						<img class='img-responsive' src='images/AT.png' width='83' height='42' alt>
+	                  					</label>
+								</div>
+								
+							</div>
+						</div><!--End Seeding-->
+						<!-- Test -->
 
 						<button type="submit" class="btn btn-success">Submit</button>
 
