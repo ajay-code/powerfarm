@@ -204,7 +204,7 @@
 	                  						<img class='img-responsive' src='images/VI.png' width='83' height='42' alt>
 	                  					</label>
 								</div>
-								<div class="clearfix visible-sm"></div>
+								<div class="clearfix hidden-xs"></div>
 								<div class="col-sm-3 col-sm-offset-2 col-xs-6">
 										<input type="checkbox" id="crop4" class="hide" value="VE" name="crops[]">
 	                  					<label for="crop4">
@@ -212,8 +212,8 @@
 	                  					</label>
 								</div>
 								<div class="col-sm-6  col-xs-6">
-										<input type="checkbox" id="crop4" class="hide" value="VE" name="crops[]">
-	                  					<label for="crop4">
+										<input type="checkbox" id="crop5" class="hide" value="VE" name="crops[]">
+	                  					<label for="crop5">
 	                  						<img class='img-responsive' src='images/merlo-pic.png' width='175' height='67' alt>
 	                  					</label>
 								</div>
@@ -270,6 +270,8 @@
 	                  						<img class='img-responsive' src='images/KV.png' width='83' height='42' alt>
 	                  					</label>
 								</div>
+								<div class="clearfix hidden-xs"></div>
+
 								<div class="col-sm-4 col-sm-offset-2 col-xs-6">
 										<input type="checkbox" id="seed4" class="hide" value="MG" name="seeds[]">
 	                  					<label for="seed4">
