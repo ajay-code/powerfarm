@@ -8,14 +8,18 @@
 .brand-head p{
 	line-height: 80px;
 	display: inline-block;
-
 }
 .brand-head img{
 	height: 80px;
 	margin-left: 20px;
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 500px) {
+	.brand-head p{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 420px) {
 	.brand-head img{
 		width: 150px;
 		height: auto;
@@ -25,7 +29,7 @@
 		line-height: 60px;
 	}
 }
-@media only screen and (max-width: 381px) {
+@media only screen and (max-width: 400px) {
 	.brand-head img{
 		width: 120px;
 		height: auto;
