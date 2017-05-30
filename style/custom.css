@@ -3,7 +3,7 @@
 	margin: 0;
 }
 .brand-head span{
-	margin-right: 20px;
+	margin-right: 5px;
 }
 .brand-head p{
 	line-height: 80px;
@@ -17,8 +17,25 @@
 
 @media only screen and (max-width: 410px) {
 	.brand-head img{
-		height: 60px;
-		margin-left: 20px;
+		width: 150px;
+		height: auto;
+		float: none !important;
+	}
+	.brand-head p{
+		line-height: 60px;
+	}
+}
+@media only screen and (max-width: 381px) {
+	.brand-head img{
+		width: 120px;
+		height: auto;
+		float: none !important;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.brand-head img{
+		width: 100px;
+		height: auto;
 		float: none !important;
 	}
 }
