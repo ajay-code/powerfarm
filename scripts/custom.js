@@ -20,22 +20,19 @@ $(function () {
         	new: {
         		message: '',
         	},
-        	'used': {
-        		message: ' ',
-        		validators: {
-                    // notEmpty: {
-                    //     message: ''
-                    // }
-                    callback: {
-                        message: ' ',
-                        callback: function(value, validator, $field){
-                            console.log(value, validator, $field)
-                            return true;
-                        }
-                    }
-                }
+        	// 'used': {
+        	// 	message: ' ',
+        	// 	validators: {
+         //            callback: {
+         //                message: ' ',
+         //                callback: function(value, validator, $field){
+         //                    console.log(value, validator, $field)
+         //                    return true;
+         //                }
+         //            }
+         //        }
 
-        	},
+        	// },
             
 
         }
