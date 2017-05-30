@@ -57,3 +57,9 @@ input:checked + label img.tic{
 input[type="checkbox"]{
 	margin: 7px 0;
 }
+
+.form-control{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px ;
+    border-radius: 0px ;
+}

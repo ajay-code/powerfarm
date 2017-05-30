@@ -28,7 +28,7 @@
 				  
 					<form id="form" action="submit.php" method="post">
 						<div class="form-group has-feedback">
-						    <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name*" data-minlength="4" required>
+						    <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name*" required>
 						    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 						    <div class="help-block with-errors"></div>
 						</div>
