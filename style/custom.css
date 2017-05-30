@@ -36,7 +36,6 @@
 	.brand-head img{
 		width: 100px;
 		height: auto;
-		float: none !important;
 	}
 }
 
@@ -92,4 +91,27 @@ input[type="checkbox"]{
 
 .collapse{
 	margin-top: 10px;
+}
+
+.tractor-img{
+
+}
+@media only screen and (max-width: 350px) {
+	.brand-head img{
+		width: 100px;
+		height: auto;
+	}
+}
+
+.label-img{
+	width: 100%;
+	height: auto;
+}
+
+.grass-img{
+
+}
+
+.padding-0{
+	padding: 0;
 }
