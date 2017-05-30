@@ -1,3 +1,10 @@
+.brand-head{
+	background-color: #5aaed9;
+	margin: 10px 0;
+}
+.brand-head span{
+	margin-right: 20px;
+}
 .brand-head p{
 	line-height: 80px;
 	display: inline-block;
@@ -8,15 +15,45 @@
 	margin-left: 20px;
 }
 
-input:checked + label>img{
-	border: 2px solid #66afe9;
-	border-radius: 10px;
-	box-shadow:0px 2px 2px 1px #66afe9;
-}
 
-input + label>img{
-	min-height: 10px;
-}
 .brand{
 	margin: 50px 0;
+}
+
+body{
+	background-color: #02519a;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #02519a;
+}
+
+.has-error .help-block{
+	color: #fff;
+}
+
+.desc-text{
+	font-size: 12px;
+	padding: 0;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.tic{
+	height: 50px;
+	width: 40px;
+	margin: auto;
+	display: none;
+}
+
+input:checked + label img.tic{
+	margin: auto;
+	display: block;
+}
+
+input[type="checkbox"]{
+	margin: 7px 0;
 }
