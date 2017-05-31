@@ -33,12 +33,14 @@
 						    <div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group has-feedback">
-						    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email*" required>
+						    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email*" >
 						    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 						    <div class="help-block with-errors"></div>
 						</div>
-						<div class="form-group">
-						    <input type="text" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone">
+						<div class="form-group has-feedback">
+						    <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone" min="0" >
+						    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+						    <div class="help-block with-errors"></div>
 						</div>
 						
 						<select class="form-control" name="type"> 
@@ -50,27 +52,9 @@
 		                     <option value='Deer'>Deer</option>
 						</select>
 
-						<div class="row"><!-- Checkbox Row -->
-							<div class="form-group col-xs-6 col-sm-4 col-sm-offset-2">
-								<div class="checkbox text-center">
-								    <label>
-								      <input type="checkbox" name="new" > New
-								     
-								    </label>
-								</div>
-							</div>
-							<div class="form-group col-xs-6 col-sm-4">
-								<div class="checkbox text-center">
-								    <label>
-								      <input type="checkbox" name="used" > Used
-								    </label>
-								</div>
-							</div>
-						</div><!-- End Checkbox Row -->
 
 
 						<!-- Images -->
-
 						<div class="row brand"><!--Brand Tractor-->
 							<div class="col-sm-12 brand-head"  >
 								<span>
@@ -91,7 +75,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -107,7 +91,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -123,7 +107,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -140,7 +124,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -170,7 +154,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -186,7 +170,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -202,7 +186,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -219,7 +203,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -250,7 +234,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -266,7 +250,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -282,7 +266,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -299,7 +283,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -329,7 +313,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -345,7 +329,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -361,7 +345,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -378,7 +362,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -395,7 +379,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
 	
@@ -425,7 +409,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -441,7 +425,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -470,7 +454,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -486,7 +470,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -502,7 +486,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -518,7 +502,7 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
@@ -534,13 +518,42 @@
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
 		                  						<div class="col-xs-2 desc-text">
-		                  							<img class="tic" src="images/kliponious-black-tick.png"    alt >
+		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
 	                  					</label>
 								</div>
 							</div>
-						</div><!--End Brand Seeding-->				
+						</div><!--End Brand Seeding-->
+
+	<!-- New Row  -->
+						<div class="row brand"><!--Brand Seeding-->
+							<div class="col-sm-12 brand-head"  >
+								<span>
+									<a href="#Telehandlers" data-toggle="collapse"><i class="glyphicon glyphicon-plus"></i></a>
+								</span>
+								<p class="h4">Telehandlers</p>
+								<img class="pull-right" class="" src="images/telehandler-pic.png" alt="">
+							</div>
+							<div class="collapse col-sm-12" id="Telehandlers">
+								<div class="col-sm-12">
+										<input type="checkbox" id="telehandler1" class="hide" value="merlo" name="telehandlers[]" >
+	                  					<label for="telehandler1">
+	                  						<div class="row">  	                  						
+		                  						<div class="padding-0 col-xs-4">
+		                  							<img class='label-img' src='images/merlo-icon.png'  alt>
+		                  						</div>
+		                  						<div class="col-xs-6 desc-text">
+		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
+		                  						</div>
+		                  						<div class="col-xs-2 desc-text">
+		                  							<img class="tic" src="images/tick.png"    alt >
+		                  						</div>
+		                  					</div>
+	                  					</label>
+								</div>
+							</div>
+						</div><!--End Brand Seeding-->										
 						<!-- Test -->
 
 
