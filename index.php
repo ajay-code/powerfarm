@@ -43,15 +43,29 @@
 						    <div class="help-block with-errors"></div>
 						</div>
 						
-						<select class="form-control" name="type"> 
-						  	 <option value='Arable / Crop Farm'>Arable / Crop Farm</option>
-		                     <option value='Construction/Hire'>Construction/Hire</option>
-		                     <option value='Contractor'>Contractor</option>
-		                     <option value='Dairy ( high input )'>Dairy ( high input )</option>
-		                     <option value='Dairy ( low input )'>Dairy ( low input )</option>
-		                     <option value='Deer'>Deer</option>
-						</select>
+						<div class="form-group has-feedback">
+							<select class="form-control" name="type"> 
+							  	 <option value='Arable / Crop Farm'>Arable / Crop Farm</option>
+			                     <option value='Construction/Hire'>Construction/Hire</option>
+			                     <option value='Contractor'>Contractor</option>
+			                     <option value='Dairy ( high input )'>Dairy ( high input )</option>
+			                     <option value='Dairy ( low input )'>Dairy ( low input )</option>
+			                     <option value='Deer'>Deer</option>
+							</select>
+						</div>
 
+						<div class="form-group has-feedback">
+							<select class="form-control" name="branch" required> 
+							  	 <option value='' disabled selected>Nearest Branch / Dealer</option>
+			                     <option value='Construction/Hire'>Construction/Hire</option>
+			                     <option value='Contractor'>Contractor</option>
+			                     <option value='Dairy ( high input )'>Dairy ( high input )</option>
+			                     <option value='Dairy ( low input )'>Dairy ( low input )</option>
+			                     <option value='Deer'>Deer</option>
+							</select>
+							<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+						    <div class="help-block with-errors"></div>
+						</div>	
 
 
 						<!-- Images -->
