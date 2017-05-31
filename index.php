@@ -38,7 +38,7 @@
 						    <div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group has-feedback">
-						    <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone" min="0" >
+						    <input type="number" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone" min="999" max="999999999999" data-error="Number should between 4 to 12 digits ">
 						    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 						    <div class="help-block with-errors"></div>
 						</div>
