@@ -21,7 +21,7 @@
 		<div class="row">
 		<br>
 		<br>
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
 				<div class="panel panel-default">
 				  <div class="panel-heading">Sign Up to Enter the Draw</div>
 				  <div class="panel-body">
