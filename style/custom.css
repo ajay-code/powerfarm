@@ -89,6 +89,13 @@ input:checked + label img.tic{
 	margin: auto;
 	display: block;
 }
+input:checked + label img.label-img{
+    -webkit-box-shadow: 0 12px 6px -6px black;
+     -moz-box-shadow: 0 12px 6px -6px black;
+          box-shadow: 0 12px 6px -6px black;
+   	border-radius: 10px;
+}
+
 
 input[type="checkbox"]{
 	margin: 7px 0;
