@@ -17,6 +17,18 @@
     <script src='scripts/custom.js'></script>
 </head>
 <body>
+	<header >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-5 hidden-xs">
+					<span class="header-title">One Name Covers It All</span>
+				</div>
+				<div class="col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-2 col-xs-12">
+					<img src="images/logo.png" class="header-img" alt="">
+				</div>						
+			</div>
+		</div>
+	</header>
 	<div class="container">
 		<div class="row">
 		<br>
@@ -581,6 +593,20 @@
 			</div>
 		</div>
 	</div>
+	
+	<footer >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-5 hidden-xs">
+					<span class="footer-title">One Name Covers It All</span>
+				</div>
+				<div class="col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-2 col-xs-12">
+					<img src="images/logo.png" class="footer-img" alt="">
+				</div>						
+			</div>
+		</div>
+	</footer>
+
 
     
 </body>
