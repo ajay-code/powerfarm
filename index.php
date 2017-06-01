@@ -100,7 +100,7 @@
 		                  						<div class="col-xs-7 col-sm-8 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -116,7 +116,7 @@
 		                  						<div class="col-xs-7 col-sm-8 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -132,7 +132,7 @@
 		                  						<div class="col-xs-7 col-sm-8 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -149,7 +149,7 @@
 		                  						<div class="col-xs-7 col-sm-8 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -173,13 +173,13 @@
 										<input type="checkbox" id="grass1" class="hide" value="HO" name="grasses[]" >
 	                  					<label for="grass1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/HO.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -189,13 +189,13 @@
 										<input type="checkbox" id="grass2" class="hide" value="KV" name="grasses[]" >
 	                  					<label for="grass2">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/KV.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -205,13 +205,13 @@
 										<input type="checkbox" id="grass3" class="hide" value="MG" name="grasses[]" >
 	                  					<label for="grass3">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/MG.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -222,13 +222,13 @@
 										<input type="checkbox" id="grass4" class="hide" value="SR" name="grasses[]" >
 	                  					<label for="grass4">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/SR.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -253,13 +253,13 @@
 										<input type="checkbox" id="cultivator1" class="hide" value="AT" name="cultivators[]" >
 	                  					<label for="cultivator1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/AT.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -269,13 +269,13 @@
 										<input type="checkbox" id="cultivator2" class="hide" value="GP" name="cultivators[]" >
 	                  					<label for="cultivator2">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/GP.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -285,13 +285,13 @@
 										<input type="checkbox" id="cultivator3" class="hide" value="KV" name="cultivators[]" >
 	                  					<label for="cultivator3">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/KV.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -302,13 +302,13 @@
 										<input type="checkbox" id="cultivator4" class="hide" value="MG" name="cultivators[]" >
 	                  					<label for="cultivator4">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/MG.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -332,13 +332,13 @@
 										<input type="checkbox" id="crop1" class="hide" value="AT" name="crops[]" >
 	                  					<label for="crop1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/AT.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -348,13 +348,13 @@
 										<input type="checkbox" id="crop2" class="hide" value="KV" name="crops[]" >
 	                  					<label for="crop2">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/KV.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -364,13 +364,13 @@
 										<input type="checkbox" id="crop3" class="hide" value="VI" name="crops[]" >
 	                  					<label for="crop3">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/VI.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2 ">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -381,13 +381,13 @@
 										<input type="checkbox" id="crop5" class="hide" value="merlo-icon" name="crops[]" >
 	                  					<label for="crop5">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/merlo-icon.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -398,13 +398,13 @@
 										<input type="checkbox" id="crop6" class="hide" value="merlo-pic" name="crops[]" >
 	                  					<label for="crop6">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/merlo-pic.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 	                  						</div>
@@ -428,13 +428,13 @@
 										<input type="checkbox" id="feed1" class="hide" value="AT" name="feeds[]" >
 	                  					<label for="feed1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/AT.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -444,13 +444,13 @@
 										<input type="checkbox" id="feed2" class="hide" value="JA" name="feeds[]" >
 	                  					<label for="feed2">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/JA.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -473,13 +473,13 @@
 										<input type="checkbox" id="seed1" class="hide" value="GP" name="seeds[]" >
 	                  					<label for="seed1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/GP.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -489,13 +489,13 @@
 										<input type="checkbox" id="seed2" class="hide" value="KC" name="seeds[]" >
 	                  					<label for="seed2">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/KC.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -505,13 +505,13 @@
 										<input type="checkbox" id="seed3" class="hide" value="KV" name="seeds[]" >
 	                  					<label for="seed3">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/KV.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -521,13 +521,13 @@
 										<input type="checkbox" id="seed4" class="hide" value="MG" name="seeds[]" >
 	                  					<label for="seed4">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/MG.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -537,13 +537,13 @@
 										<input type="checkbox" id="seed5" class="hide" value="AT" name="seeds[]" >
 	                  					<label for="seed5">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0  padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class=' label-img' src='images/AT.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
@@ -566,13 +566,13 @@
 										<input type="checkbox" id="telehandler1" class="hide" value="merlo" name="telehandlers[]" >
 	                  					<label for="telehandler1">
 	                  						<div class="row">  	                  						
-		                  						<div class="padding-0 col-xs-4">
+		                  						<div class="padding-0 col-xs-3">
 		                  							<img class='label-img' src='images/merlo-icon.png'  alt>
 		                  						</div>
-		                  						<div class="col-xs-6 desc-text">
+		                  						<div class="col-xs-7 desc-text">
 		                  							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repellendus inventore numquam blan.
 		                  						</div>
-		                  						<div class="col-xs-2 desc-text">
+		                  						<div class="col-xs-2">
 		                  							<img class="tic" src="images/tick.png"    alt >
 		                  						</div>
 		                  					</div>
